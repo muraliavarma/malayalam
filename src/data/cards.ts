@@ -84,4 +84,11 @@ export const malayalamCards: MalayalamCard[] = [
   makeCard('zha-vazhapazham', 'ഴ', 'zha', 'വാഴപ്പഴം', 'vaazhapazham', 'bananas', 'Bunch of bananas', 'consonant'),
   makeCard('ra-car', 'റ', 'ra2', 'കാർ', 'kaar', 'car', 'Red little car', 'consonant'),
   makeCard('ksa-kshetram', 'ക്ഷ', 'ksha', 'ക്ഷേത്രം', 'kshetram', 'temple', 'Temple with lamps', 'consonant'),
+  makeCard('tra-train', 'ട്ര', 'tra', 'ട്രെയിൻ', 'train', 'train', 'Cheerful train engine steaming ahead', 'chillu'),
+  makeCard('chillu-l', 'ൽ', 'l', 'ചില്ലു ൽ', 'chillu l', 'pure l ending sound', 'Curly tail letter that ends so many words', 'chillu'),
+  makeCard('chillu-ll', 'ൾ', 'll', 'ചില്ലു ള്', 'chillu lla', 'retroflex l chillu', 'Swirly retroflex l finisher', 'chillu'),
+  makeCard('chillu-n', 'ൻ', 'n', 'ചില്ലു ന', 'chillu na', 'soft n ending', 'Gentle n tail sound', 'chillu'),
+  makeCard('chillu-nn', 'ൺ', 'nn', 'ചില്ലു ണ', 'chillu nna', 'retroflex n ending', 'Loop-de-loop retroflex n', 'chillu'),
+  makeCard('chillu-r', 'ർ', 'r', 'ചില്ലു റ', 'chillu ra', 'rolling r ending', 'Rocket tail r sound', 'chillu'),
+  makeCard('chillu-k', 'ൿ', 'k', 'ചില്ലു ക', 'chillu ka', 'sharp k ending', 'Tiny hook for clipped k', 'chillu'),
 ]

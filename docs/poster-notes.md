@@ -56,5 +56,12 @@ The big reference poster the user shared mixes vowels (സ്വരം) and cons
 | ഴ | വാഴപ്പഴം | vaazhapazham | bananas |
 | റ | കാർ | kaar | car |
 | ക്ഷ | ക്ഷേത്രം | kshetram | temple |
+| ട്ര | ട്രെയിൻ | train | bright blue train |
+| ൽ | ചില്ലു ൽ | chillu l | tail form of l |
+| ൻ | ചില്ലു ന | chillu n | soft end-of-word n |
+| ൺ | ചില്ലു ണ | chillu nna | retroflex n tail |
+| ർ | ചില്ലു റ | chillu r | rolling r ending |
+| ള | ചില്ലു ള് | chillu lla | retroflex l ending |
+| ൿ | ചില്ലു ക | chillu ka | clipped k ending |
 
 These values are now mirrored inside `src/data/cards.ts` so the React flash cards can stay in sync with the chart your kid already knows.

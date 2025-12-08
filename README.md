@@ -9,7 +9,7 @@ A tiny React + Vite experience that turns the poster you shared into an interact
 - `letter`: Malayalam glyph
 - `word` / `wordTransliteration`: the Malayalam word under the picture and its Latin helper
 - `meaning` + `hint`: English description so a parent/older sibling knows what to say
-- `type`: `vowel` or `consonant` so the filter buttons work
+- `type`: `vowel`, `consonant`, or `chillu` (for the extra “ട്ര, ൻ, ൽ …” row) so the filter buttons work
 
 If you want to tweak spellings or swap an image description, edit the object in `cards.ts` and the UI will instantly reflect it.
 
@@ -33,13 +33,21 @@ Open the shown URL (usually <http://localhost:5173>) to see the flash cards. `np
 
 The Vite config reads `GITHUB_REPOSITORY` during the workflow so assets are served from `https://<user>.github.io/<repo>/`. If you later move to a custom domain, set `VITE_BASE=/` (or another path) before building to override the default.
 
+## How to play the quiz
+
+1. Pick a filter (all letters, only vowels, consonants, or the bonus chillu/cluster letters).
+2. Drag the slider to the number of cards you want in the round (default is 10).
+3. Hit “Start a game”. We shuffle the available letters and show each card one at a time.
+4. After your kid answers, press the big green ✅ if they nailed it or the red ❌ if you want to revisit it.
+5. Once all cards are marked you’ll see a celebratory score card and can instantly spin up a new batch.
+
 ## Features
 
-- Filter between all letters, only vowels, or only consonants
-- Shuffle/reset deck order while keeping the poster mappings intact
-- Auto-play toggle (advances every 4.5 s) for hands-free practice
-- Quick jump grid so a kid can tap a favourite glyph
-- Optional speech synthesis button (desktop Chrome/Safari) that reads the letter, word, and meaning out loud
+- Mobile-first, tabbed flow (Setup → Play → Trail → Score) that stays within a single screen
+- Random 5‑15 card quiz rounds with big green/red buttons to mark success
+- Filters for vowels, consonants, and the extra poster row (ട്ര, ൽ, ൻ, ർ, …)
+- Progress tracker grid so you can jump back and adjust a score if needed
+- Bright celebratory score card when a round ends to keep motivation high
 
 ## Customising further
 
